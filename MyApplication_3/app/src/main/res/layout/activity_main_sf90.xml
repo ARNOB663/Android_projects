@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity_sf90">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/sf901"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:text="The Ferrari SF90's hybrid powertrain is anchored by a 4.0L twin-turbo 90-degree V8 rated at 769 hp, paired to a trio of electric motors (generating 217 hp). By their power combined, the twin turbo V8 and trio of electric motors deliver a record-breaking 986 hp — or a clean 1,000 cheval vapeur."
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Back"
+        />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity_puro" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/puro"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="-5dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:text="The Purosangue has a 6.5 L F140IA V12 petrol engine, with a maximum output of 533 kW (715 hp; 725 PS) at 7,750 rpm and a maximum torque of 716 N⋅m (73.0 kg⋅m; 528 lb⋅ft) at 6,250 rpm."
+        android:textSize="29dp"
+        />
+    <Button
+        android:id="@+id/back_button_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Back"
+        />
+</LinearLayout>

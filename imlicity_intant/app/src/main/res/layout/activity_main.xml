@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="8"
+    >
+<EditText
+    android:id="@+id/entrydata"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+</EditText>
+
+    <Button
+        android:id="@+id/b_camra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camra"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/b_contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="browser" />
+
+</LinearLayout>
+
+

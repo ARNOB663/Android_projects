@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity_la_ferrari" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/la_farrafi"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:text="LaFerrari's internal combustion petrol engine is a longitudinally rear mid-mounted Ferrari F140 direct fuel injected 65° V12 engine with a displacement of 6,262 cc (6.3 L) generating a maximum power output of 800 PS (588 kW; 789 hp) at 9,000 rpm and 700 N⋅m (516 lb⋅ft) of torque at 6,750 rpm, supplemented by a 163 PS"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/back_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Back"
+        />
+</LinearLayout>

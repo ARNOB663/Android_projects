@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity_fxxk">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/fxxk"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:text="The hybrid powerplant used in the FXX-K has a total power output of 1,050 PS (772 kW; 1,036 hp) and over 900 N⋅m (664 lb⋅ft), of which 860 PS (633 kW; 848 hp) are delivered by the V12 ICE and 190 PS (140 kW; 187 hp) by the electric motor. The V12 engine has been tuned for track use as well as the HY-KERS system."
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/back_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Back"
+        />
+</LinearLayout>
