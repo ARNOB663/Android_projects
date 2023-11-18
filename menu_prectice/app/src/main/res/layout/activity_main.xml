@@ -23,5 +23,9 @@ android:theme="@style/Base.Theme.Menu_prectice">
 
 </com.google.android.material.appbar.AppBarLayout>
 
+  <ImageView
+      android:id="@+id/action_image"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"/>
 
   </LinearLayout>
