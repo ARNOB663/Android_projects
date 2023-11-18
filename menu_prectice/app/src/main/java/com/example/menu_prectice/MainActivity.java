@@ -1,11 +1,12 @@
 package com.example.menu_prectice;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
+import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuInflater;
-import android.widget.Toolbar;
+import android.view.MenuItem;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,37 +14,34 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
     }
+    //Method for Creating a Menu
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-/*        super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.menu_main, menu);*/
-
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu_main,menu);
         return true;
-
     }
 
-
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-
-
-        //noinspection SimplifiableIfStatement
-
-
-
-        //---------------------------
-
-
-    }
-
-    //----------onclick
-
-
+    //Method for item selection
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        ImageView imageView = findViewById(R.id.action_image);
+        if(id == R.id.action_elephant){
+            imageView.setImageResource(R.drawable.elephant);
+        } else if (id == R.id.action_dog) {
+            imageView.setImageResource(R.drawable.dog);
+        } else if (id == R.id.action_cat) {
+            imageView.setImageResource(R.drawable.cat);
+        } else if (id == R.id.action_giraffe) {
+            imageView.setImageResource(R.drawable.girrafe);
+        }
+        else{
+            imageView.setImageResource(R.drawable.gear);
+        }
+        return super.onOptionsItemSelected(item);
+}
+}

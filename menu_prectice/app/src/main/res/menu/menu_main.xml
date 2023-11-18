@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.emptyactivity_menucreate">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/app_setting"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_elephant"
+        android:title="Elephant"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_dog"
+        android:title="Dog"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_cat"
+        android:title="Cat"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_giraffe"
+        android:title="Giraffe"
+        app:showAsAction="never"
+    />
+</menu>
