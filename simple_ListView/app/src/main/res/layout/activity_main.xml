@@ -8,14 +8,30 @@
 
     <ListView
         android:id="@+id/list_view"
-        android:dividerHeight="3dp"
-        android:divider="#041E7D"
         android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_height="339dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="1dp"
+        android:divider="#041E7D"
+        android:dividerHeight="3dp"
+        android:listSelector="#0F9878"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/list_view2"
+        android:layout_width="409dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:divider="#041E7D"
+        android:dividerHeight="3dp"
+        android:listSelector="#0F9878"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
