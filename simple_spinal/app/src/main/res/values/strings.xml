@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">simple_spinal</string>
+    <string-array name="CTGTHANA">
+        <item>Anwara - আনোয়ারা </item>
+        <item>Banshkhali - বাশখালি</item>
+        <item>Boalkhali - বোয়ালখালি</item>
+        <item>Chandanaish - চন্দনাইশ</item>
+        <item>Fatikchhari - ফটিকছড়ি</item>
+        <item>Hathazari - হাঠহাজারী</item>
+        <item>Lohagara - লোহাগারা</item>
+        <item> Mirsharai - মিরসরাই</item>
+        <item>Patiya - পটিয়া</item>
+        <item>Rangunia - রাঙ্গুনিয়া</item>
+        <item>Raozan - রাউজান</item>
+        <item>Sandwip - সন্দ্বীপ</item>
+        <item>Satkania - সাতকানিয়া</item>
+        <item>Sitakunda - সীতাকুণ্ড</item>
+        <item>Akborsha - Akborsha</item>
+        <item>Baijid bostami - বাইজিদ বোস্তামী</item>
+        <item>Bakolia - বাকোলিয়া</item>
+        <item>Bandar - বন্দর</item>
+        <item>Chandgaon - চাঁদগাও</item>
+        <item>Chokbazar - চকবাজার</item>
+        <item>Doublemooring - ডাবল মুরিং</item>
+        <item> EPZ - ইপিজেড</item>
+        <item>Hali Shohor - হলী শহর</item>
+        <item>Kornafuli - কর্ণফুলি</item>
+        <item>Kotwali - কোতোয়ালী</item>
+        <item>Kulshi - কুলশি</item>
+        <item>Pahartali - পাহাড়তলী</item>
+        <item>Panchlaish - পাঁচলাইশ</item>
+        <item>Potenga - পতেঙ্গা</item>
+        <item>Shodhorgat - সদরঘাট</item>
+
+    </string-array>
+</resources>
