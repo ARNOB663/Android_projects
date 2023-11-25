@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">all_in_one_1</string>
+    <string-array name="item">
+    <item> Ferrari 488 </item>
+    <item> Data pass </item>
+    </string-array>
+
+
+
+
+
+
+
+
+</resources>

@@ -1,7 +1,6 @@
 package com.example.creating_list_viewusinglistactivity;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.View;
