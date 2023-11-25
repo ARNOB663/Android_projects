@@ -29,9 +29,11 @@ public class MainActivity extends ListActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String post= marray[position];
+               //Toast.makeText(MainActivity.this,post+"position is"+position,Toast.LENGTH_SHORT).show();
+               // TextView text1 = findViewById(R.id.textView);
+                //text1.setText(marray[position]);
+                String ctext = ((TextView) view).getText().toString();
                 Toast.makeText(MainActivity.this,post+"position is"+position,Toast.LENGTH_SHORT).show();
-                TextView text1 = findViewById(R.id.textView);
-                text1.setText(marray[position]);
             }
         });
     }
