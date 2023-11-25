@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">list_view_with_idevusil_activity</string>
+    <string-array name="topic">
+        <item>Liner layout</item>
+    <item>constant layout</item>
+    <item>implicity intant</item>
+    <item>explicity intant</item>
+        <item>event handaling</item>
+        <item>dynamic coding</item>
+        <item>adeptar</item>
+        <item>menu</item>
+
+
+
+    </string-array>
+</resources>

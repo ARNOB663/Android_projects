@@ -19,7 +19,7 @@ ListView lv2;
         lv1=findViewById(R.id.list_view);
         Resources res =getResources();
         CTGTHANA = res.getStringArray(R.array.CTGTHANA);
-
+        
         //String[] name = {"Ford","Mercedes-Benz","General Motors","BMW","Audi","Honda","Chevrolet","Hyundai","TOYOTA","Kia","Cadillac","Tesla","Volkswagen","Lexus","Jeep","Nissan"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1,CTGTHANA);
         lv1.setAdapter(adapter);
