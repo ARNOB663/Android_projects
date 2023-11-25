@@ -51,7 +51,6 @@ lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         }
     }
 });
-
     }
 
 }
