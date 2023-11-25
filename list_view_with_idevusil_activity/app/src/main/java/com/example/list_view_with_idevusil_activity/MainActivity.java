@@ -30,19 +30,16 @@ lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         {
             Intent myIntent=new Intent(view.getContext(),MainActivity2.class);
             startActivity(myIntent);
-
         }
         if(position==1)
         {
             Intent myIntent=new Intent(view.getContext(),MainActivity3.class);
             startActivity(myIntent);
-
         }
         if(position==2)
         {
             Intent myIntent=new Intent(view.getContext(), MainActivity4.class);
             startActivity(myIntent);
-
         }
         if(position==3)
         {
@@ -52,5 +49,4 @@ lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
     }
 });
     }
-
 }
