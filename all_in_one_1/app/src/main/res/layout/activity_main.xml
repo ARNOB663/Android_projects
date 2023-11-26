@@ -15,4 +15,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/entrydata"
+        android:layout_width="409dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="68dp"
+        android:inputType="text"
+        android:text="Enter website"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
