@@ -47,11 +47,10 @@ String[] item;
                 {
                     Intent i1 = new Intent();
                     i1.setAction(Intent.ACTION_VIEW);
-                    i1.setData(Uri.parse("https://www.google.com/"+ edit_text.getText()));
+                    i1.setData(Uri.parse("https:" + edit_text.getText()));
                     //i1.setData(Uri.parse("tel:" + edit_text.getText()));
                     startActivity(i1);
                 }
-
             }
         });
         lv1.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -72,6 +71,5 @@ String[] item;
                 return false;
             }
         });
-
     }
 }
