@@ -19,7 +19,7 @@
         android:id="@+id/button"
         android:layout_width="408dp"
         android:layout_height="88dp"
-        android:text="Button"
+        android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

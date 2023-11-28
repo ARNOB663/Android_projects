@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <ListView
+        android:background="@color/white"
         android:id="@+id/list_view"
         android:layout_width="408dp"
         android:layout_height="422dp"
