@@ -10,6 +10,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -17,6 +18,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 ListView lv1;
     EditText edit_text;
+
+    Button b;
 String[] item;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +54,7 @@ String[] item;
                     Toast.makeText(getApplicationContext(),"Going to : "+edit_text.getText(),Toast.LENGTH_SHORT).show();
                     Intent ii = new Intent();
                     ii.setAction(Intent.ACTION_VIEW);
-//                ii.setData(Uri.parse("https://www.google.com/"));//For static
+//                  ii.setData(Uri.parse("https://www.google.com/"));//For static
                     ii.setData(Uri.parse("https:" + edit_text.getText()));//For dynamic
                     startActivity(ii);
                 }
@@ -73,6 +76,15 @@ String[] item;
                     startActivity(i1);
                 }
                 return false;
+            }
+        });
+
+        b=findViewById(R.id.button1);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DataPass.class);
+                startActivity(intent);
             }
         });
     }
