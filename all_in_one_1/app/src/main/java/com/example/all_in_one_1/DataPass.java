@@ -2,6 +2,7 @@ package com.example.all_in_one_1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,14 +14,15 @@ public class DataPass extends AppCompatActivity {
 
     Button button;
     EditText et1, et2, et3;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        button = findViewById(R.id.button_b_1);
-        et1 = findViewById(R.id.et_1);
-        et2 = findViewById(R.id.et_2);
-        et3 = findViewById(R.id.et_3);
+        button = findViewById(R.id.dtp1_b1);
+        et1 = findViewById(R.id.dtpet1);
+        et2 = findViewById(R.id.dtpet2);
+        et3 = findViewById(R.id.dtpet3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

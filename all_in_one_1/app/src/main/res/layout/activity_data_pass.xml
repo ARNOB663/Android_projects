@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,42 +8,71 @@
     tools:context=".DataPass">
 
     <ImageView
-        android:id="@+id/Image_1"
-        android:layout_gravity="center"
+        android:id="@+id/dtpImage_1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/github">
+        android:layout_gravity="center"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="156dp"
+        android:src="@drawable/github"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
     </ImageView>
 
     <EditText
-        android:id="@+id/et_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/dtpet1"
+        android:layout_width="404dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="5dp"
         android:hint="What's the product?"
-        android:layout_marginTop="40dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtpImage_1">
+
     </EditText>
 
     <EditText
-        android:id="@+id/et_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/dtpet2"
+        android:layout_width="404dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="4dp"
         android:hint="Unit?"
-        android:layout_marginTop="40dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtpet1">
+
     </EditText>
 
     <EditText
-        android:id="@+id/et_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/dtpet3"
+        android:layout_width="409dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="28dp"
         android:hint="Unit per price?"
-        android:layout_marginTop="40dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtpet2">
+
     </EditText>
 
     <Button
-        android:id="@+id/button_b_1"
+        android:id="@+id/dtp1_b1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Checkout">
+        android:layout_marginBottom="81dp"
+        android:text="Checkout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
     </Button>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
