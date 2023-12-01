@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Auto_complite_textView</string>
+    <string-array name="text1">
+        <item>arrr</item>
+        <item>brrr</item>
+        <item>b</item>
+        <item>crrr</item>
+        <item>d</item>
+        <item>e</item>
+
+
+    </string-array>
+</resources>
