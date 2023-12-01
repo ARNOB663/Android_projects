@@ -25,14 +25,11 @@ public class MainActivity extends AppCompatActivity {
         //ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this, andriod.R.layout.simple.list_item_1,countries);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, countries);
         textView.setAdapter(adapter);
-
         textView.setThreshold(1);
         textView.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
-
         Button button = findViewById(R.id.button);
         button.setOnClickListener(v -> {
             String text = textView.getText().toString();
             Toast.makeText(getApplicationContext(),text,Toast.LENGTH_SHORT).show();
-
         });
 }}

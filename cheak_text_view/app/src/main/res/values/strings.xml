@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cheak_text_view</string>
+    <string name="per_msg">CheckedTextView is</string>
+    <string name="checked">Checked</string>
+    <string name="unchecked">unCheckedTextView</string>
+
+</resources>
