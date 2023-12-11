@@ -16,17 +16,14 @@ public class CustomAdapter extends BaseAdapter {
 
     private final Integer[] ImageId;
 
-    private final String[] area;
-
-    private final String[] population;
 
 
-    public CustomAdapter(Activity context, String[] district, Integer[] imageId, String[] area, String[] population) {
+
+    public CustomAdapter(Activity context, String[] district, Integer[] imageId) {
         this.context = context;
         this.district = district;
         ImageId = imageId;
-        this.area = area;
-        this.population = population;
+
     }
 
     @Override
@@ -51,13 +48,11 @@ public class CustomAdapter extends BaseAdapter {
         View rowview = inflater.inflate(R.layout.custadp,null,true);
 
         TextView textView = (TextView) rowview.findViewById(R.id.txt);
-        TextView textView1 = (TextView) rowview.findViewById(R.id.txt1);
-        TextView textView2 = (TextView) rowview.findViewById(R.id.txt2);
+
         ImageView imageView = (ImageView) rowview.findViewById(R.id.img1);
 
         textView.setText(district[position]);
-        textView1.setText(area[position]);
-        textView2.setText(population[position]);
+
         imageView.setImageResource(ImageId[position]);
 
         return rowview;
