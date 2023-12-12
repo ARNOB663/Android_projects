@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ps5_pro" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="388dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Rumor: Possible PS5 Pro Specs Leak Online"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="390dp"
+        android:layout_height="391dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="5dp"
+        android:text=" Sony is rumored to be working on a Pro version of the PS5 with potential upgraded specs.  Rumored specs of PS5 Pro include an AMD Zen 2 CPU, Radeon custom RDNA3 GPU, 16GB DDR6 memory, and XDNA2 NPU for stable upscaled 4K output. Potential specs of Sony's rumored Pro version of the PS5 have surfaced online, sparking speculation among gamers once again. Conversations around console upgrades to the PS5 have been ramping up over the past few months, particularly regarding expectations for the PS5 Pro. Now, new details of the rumored hardware provide a glimpse of what gamers can expect from Sony.  Previously, numerous rumors and leaks suggested that a smaller-sized 1TB version of the PS5 was in the works. In October, Sony officially unveiled the PS5 Slim at $499 for the disc edition and $449 for the digital version. While serving as an apt entry point for first-time PS5 buyers, it should be noted that apart from the sleek form factor, the PS5 Slim doesn't offer any notable performance upgrades. However, the rumored PS5 Pro is said to ship as a hardware refresh to the current console generation, similar to how the PS4 Pro served the PS4."
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

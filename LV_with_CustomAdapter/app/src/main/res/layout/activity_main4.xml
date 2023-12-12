@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="406dp"
+        android:layout_height="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rdr3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="RED DEAD REDEMPTION 3 ‘OFFICIALLY IN THE WORKS’, IT’S CLAIMED"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="393dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:text="This leak comes courtesy of @MyTimeToShineH on Twitter, who recently also posted a claim that a Hogwarts Legacy sequel is in development – which we reported on here. Admittedly, MyTimeToShineH is more of a movie-focused leaker, specialising in Marvel and DC, and as these leaks are as of yet uncorroborated, we’re waiting to establish a videogame-focused track record for the individual.  Regardless, it seems obvious that Rockstar would in some capacity be working on a Red Dead Redemption 3 – we just can’t say at all what that game would look like. There are suggestions circulating online that lean towards Red Dead Redemption 3 being a prequel to the prequel and being set before the events of Red Dead Redemption 2.  It would, in that case, show the Van Der Linde Gang in their earlier years – if it indeed focused on these characters at all. It would be fitting for the game to run up to the events that occurred in Blackwater that saw the gang scattered at the start of Red Dead Redemption 2, much like the events at the end of that game ultimately led to the opening of 2010’s Red Dead Redemption."
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

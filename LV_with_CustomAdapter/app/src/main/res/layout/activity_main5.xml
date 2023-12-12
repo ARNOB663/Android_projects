@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="403dp"
+        android:layout_height="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/g1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="397dp"
+        android:textStyle="bold"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="6dp"
+        android:text="There Are Some Amazing PC Game Deals In Fanatical's Winter Sale"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="381dp"
+        android:layout_height="349dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="Fanatical's Winter Sale is live, slashing the prices on dozens of PC games in the Fanatical store. You can grab several of 2023's best games at excellent discounts like the System Shock remake for $24 (was $40), Starfield for $45.49 (was $70), Blasphemous II for $18.59 (was $30), and Dredge for $15.49 (normally $25). Select preorders for upcoming games are also on sale, including Like a Dragon: Infinite Wealth for $60.89 (normally $70), and Dragon's Dogma 2 for $57.39 (was $70)."
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
