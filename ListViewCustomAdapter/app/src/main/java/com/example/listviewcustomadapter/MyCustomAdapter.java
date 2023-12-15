@@ -25,7 +25,19 @@ public class MyCustomAdapter extends BaseAdapter {
         this.population = population;
         this.imgId = imgId;
     }
+private  class ViewHolder{
+        TextView txtView1;
+        TextView txtView2;
+        TextView txtView3;
+        ImageView imgView;
+        public ViewHolder(View v){
+            txtView1 = v.findViewById(R.id.tv_1);
+            txtView2 = v.findViewById(R.id.tv_2);
+            txtView3 = v.findViewById(R.id.tv_3);
+            imgView = v.findViewById(R.id.iv_1);
+        }
 
+    }
     @Override
     public int getCount() {
         return division.length;
