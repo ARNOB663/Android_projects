@@ -53,7 +53,7 @@ private  class ViewHolder{
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        ViewHolder holder = null;
+        ViewHolder holder;
 
        if(convertView == null) {
            LayoutInflater inflater = context.getLayoutInflater();
@@ -65,17 +65,24 @@ private  class ViewHolder{
        else{
            holder = (ViewHolder)convertView.getTag();
          }
-        TextView txtView1 = convertView.findViewById(R.id.tv_1);
-        TextView txtView2 = convertView.findViewById(R.id.tv_2);
-        TextView txtView3 = convertView.findViewById(R.id.tv_3);
-        ImageView imgView = convertView.findViewById(R.id.iv_1);
 
-        txtView1.setText(division[position]);
-        txtView2.setText(area[position]);
-        txtView3.setText(population[position]);
-        imgView.setImageResource(imgId[position]);
+//       TextView txtView1 = holder.txtView1;
+//         TextView txtView2 = holder.txtView2;
+//            TextView txtView3 = holder.txtView3;
+//            ImageView imgView = holder.imgView;
+//        TextView txtView1 = convertView.findViewById(R.id.txtv);
+//        TextView txtView2 = convertView.findViewById(R.id.tv_2);
+//        TextView txtView3 = convertView.findViewById(R.id.tv_3);
+//        ImageView imgView = convertView.findViewById(R.id.iv_1);
 
-        return convertView;
+//
+
+        holder.txtView1.setText(division[position]);
+        holder.txtView2.setText(area[position]);
+        holder.txtView3.setText(population[position]);
+        holder.imgView.setImageResource(imgId[position]);
+
+     return convertView;
     }
 
 }
