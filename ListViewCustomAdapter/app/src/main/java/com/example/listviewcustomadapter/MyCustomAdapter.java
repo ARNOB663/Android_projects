@@ -75,8 +75,6 @@ private  class ViewHolder{
 //        TextView txtView3 = convertView.findViewById(R.id.tv_3);
 //        ImageView imgView = convertView.findViewById(R.id.iv_1);
 
-//
-
         holder.txtView1.setText(division[position]);
         holder.txtView2.setText(area[position]);
         holder.txtView3.setText(population[position]);
