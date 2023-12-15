@@ -51,7 +51,7 @@ public class MyCustomAdapter extends BaseAdapter {
         TextView txtView1 = convertView.findViewById(R.id.tv_1);
         TextView txtView2 = convertView.findViewById(R.id.tv_2);
         TextView txtView3 = convertView.findViewById(R.id.tv_3);
-        ImageView imgView = context.findViewById(R.id.iv_1);
+        ImageView imgView = convertView.findViewById(R.id.iv_1);
 
         txtView1.setText(division[position]);
         txtView2.setText(area[position]);
