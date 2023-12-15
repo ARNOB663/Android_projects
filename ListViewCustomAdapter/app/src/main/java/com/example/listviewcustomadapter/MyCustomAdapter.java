@@ -1,7 +1,5 @@
 package com.example.listviewcustomadapter;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -36,7 +34,6 @@ private  class ViewHolder{
             txtView3 = v.findViewById(R.id.tv_3);
             imgView = v.findViewById(R.id.iv_1);
         }
-
     }
     @Override
     public int getCount() {
@@ -56,10 +53,17 @@ private  class ViewHolder{
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
+        ViewHolder holder = null;
+
        if(convertView == null) {
            LayoutInflater inflater = context.getLayoutInflater();
            convertView = inflater.inflate(R.layout.custom_layout, null, true);//for 70% perfomance incrice use convertview instead of rowview
+
+              holder = new ViewHolder(convertView);
        }
+       else{
+           holder = (ViewHolder)convertView.getTag();
+         }
         TextView txtView1 = convertView.findViewById(R.id.tv_1);
         TextView txtView2 = convertView.findViewById(R.id.tv_2);
         TextView txtView3 = convertView.findViewById(R.id.tv_3);
