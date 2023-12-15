@@ -60,6 +60,7 @@ private  class ViewHolder{
            convertView = inflater.inflate(R.layout.custom_layout, null, true);//for 70% perfomance incrice use convertview instead of rowview
 
               holder = new ViewHolder(convertView);
+              convertView.setTag(holder);
        }
        else{
            holder = (ViewHolder)convertView.getTag();
