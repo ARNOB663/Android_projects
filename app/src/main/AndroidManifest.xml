@@ -13,11 +13,15 @@
         android:theme="@style/Theme.Messenger_App"
         tools:targetApi="31">
         <activity
-            android:name=".splash"
+            android:name=".login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
