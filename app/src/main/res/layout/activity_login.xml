@@ -21,7 +21,7 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="160dp"
+        android:layout_width="144dp"
         android:layout_height="73dp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center"
@@ -31,15 +31,15 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintVertical_bias="0.401" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="@dimen/_200sdp"
-        android:layout_height="@dimen/_70sdp"
+        android:layout_width="233dp"
+        android:layout_height="73dp"
         android:fontFamily="@font/poppins_regular"
         android:gravity="center"
         android:text="Sign in to continue"
@@ -135,5 +135,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916" />
+        app:layout_constraintVertical_bias="0.943" />
 </androidx.constraintlayout.widget.ConstraintLayout>

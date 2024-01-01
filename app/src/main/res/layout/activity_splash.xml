@@ -61,8 +61,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="@dimen/_200sdp"
-        android:layout_height="@dimen/_25sdp"
+        android:layout_width="251dp"
+        android:layout_height="29dp"
         android:fontFamily="@font/spartan_thin"
         android:gravity="center"
         android:text="Arnob"
