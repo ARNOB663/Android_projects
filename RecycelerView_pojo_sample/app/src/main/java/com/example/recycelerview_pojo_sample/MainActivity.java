@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
  list.add(new Model("3", "Bugatti Chiron", "Bugatti Chiron ($2,998,000)", R.drawable.bugatti_chiron, 4.7, 	2998000));
  list.add(new Model("4", "aston martin", "aston martin ($1,000,000)", R.drawable.aston_martin_vulcan, 4.3, 	1000000));
  list.add(new Model("5", "Ferrari LaFerrari", "Ferrari LaFerrari ($1,416,362)", R.drawable.ferrari_laferrari, 4.5, 	1416362));
- list.add(new Model("6", "Pagani Huayra", "pagani ($1,400,000)", R.drawable.pagani_Huayra, 4.7, 	1400000));
+ //list.add(new Model("6", "Pagani Huayra", "pagani ($1,400,000)", R.drawable.pagani_Huayra, 4.7, 	1400000));
  list.add(new Model("7", "McLaren P1", "McLaren P1 ($1,350,000)", R.drawable.mclaren_p1, 4.3, 	1350000));
 
  CustomAdapter adapter = new CustomAdapter(this, list);
