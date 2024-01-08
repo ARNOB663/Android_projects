@@ -26,7 +26,51 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7330335a-5204-468c-96bf-aa80119fe368" name="Changes" comment="" />
+    <list default="true" id="7330335a-5204-468c-96bf-aa80119fe368" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Messenger_App/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/androidTest/java/com/example/messenger_app/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/java/com/example/messenger_app/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/java/com/example/messenger_app/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/java/com/example/messenger_app/splash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Messenger_App/app/src/test/java/com/example/messenger_app/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Url_image_prossing/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Url_image_prossing/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Url_image_prossing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Url_image_prossing/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,20 +99,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;E:/Android_projects/app/src/main/res/drawable&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Android_projects/app/src/main/res/drawable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_directory_selection": "E:/Android_projects/app/src/main/res/drawable",
+    "last_opened_file_path": "F:/Messenger_App/Android_projects",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Android_projects\app\src\main\res\drawable" />
