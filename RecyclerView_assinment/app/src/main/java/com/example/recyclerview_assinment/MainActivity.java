@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         offerRecyclerView.setAdapter(offerAdapter);
 
         // best RecyclerView
-
         bestSellerRecyclerView = findViewById(R.id.bestSellerRecyclerview);
         bestSellerRecyclerView.setHasFixedSize(true);
         bestSellerRecyclerView.setLayoutManager(new LinearLayoutManager(this , LinearLayoutManager.HORIZONTAL , false));
@@ -62,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         BestSellerAdapter bestSellerAdapter = new BestSellerAdapter(bestSellerList);
 
         bestSellerRecyclerView.setAdapter(bestSellerAdapter);
-
 
         // clothing RecyclerView
 
@@ -114,9 +112,11 @@ public class MainActivity extends AppCompatActivity {
         mImageUrls.add("https://static-01.daraz.com.bd/p/4b82d885ade88d3211eb2aef75a58115.png_188x188.jpg_.webp");
         mNames.add("T900 ultra Smart Watch Charger colour white wireless charger warless Charger magnetic charger");
         mprice.add("৳ 200");
+
         mImageUrls.add("https://static-01.daraz.com.bd/p/8b135d813596344d2fe303d29e251cd5.jpg_200x200q90.jpg_.webp");
         mNames.add("Men Crossbody Sling Bag Shoulder bag 8/12 inc");
         mprice.add("৳ 190");
+
 mImageUrls.add("https://static-01.daraz.com.bd/p/a9f33b3cd224a050e11e3fce82f40549.jpg_200x200q90-product.jpg_.webp");
 mNames.add("Stylish and Fashionable Winter and Summer Exclusive Sneakers Converse Shoes for Men");
 mprice.add("৳ 495");
@@ -132,8 +132,6 @@ mprice.add("৳ 249,500");
 mImageUrls.add("https://static-01.daraz.com.bd/p/886d61820a719dfc26e8acdb3eb6a2f2.jpg_188x188.jpg_.webp");
 mNames.add("Apple MacBook Pro M1 Max 16 inch 10-Core CPU 32-Core GPU 64GB RAM 1TB SSD Customize Model");
 mprice.add("৳ 479,900");
-
-
 
     }
 
