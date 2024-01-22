@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.ListView;
 
 public class MyCustomAdapter extends BaseAdapter {
     private final Activity context;
