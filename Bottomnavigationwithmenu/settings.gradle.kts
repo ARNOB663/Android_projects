@@ -13,7 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Messenger_App"
-include(":app")
+rootProject.name = "Bottom navigation with menu"
 include(":app")
  

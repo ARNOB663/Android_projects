@@ -13,7 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Messenger_App"
-include(":app")
+rootProject.name = "nevigation_drawer_view"
 include(":app")
  
